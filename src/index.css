@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.body{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(93, 10, 226);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flag{
+  width: 20rem;
+  height: 4rem;
+  background-color: white;
+  border-top: 4rem solid black;
+  border-bottom: 4rem solid green;
+  position: relative;
+}
+.flag::after{
+  content: "";
+  position: absolute;
+  top: -4rem;
+  left: 0;
+  width: 20rem;
+  border-left: 6rem solid red;
+  border-top: 6rem solid transparent;
+  border-bottom: 6rem solid transparent;
+}
+.container{
+  text-align: center;
+}
+.container h2{
+  margin-top: 1rem;
+  color: cyan;
+  display: inline-block;
+}
+.container span{
+  color: rgb(255, 196, 0);
+  height: 2rem;
+  width: 0.5rem;
+}
+.container h1{
+  color: cyan;
+}
+.wrapper{
+  width: 21rem;
+  height: 30rem;
+  background-color: rgb(69, 5, 129);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+}
